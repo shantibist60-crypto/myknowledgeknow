@@ -1,0 +1,85 @@
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+</head>
+<body style=background-color:#0B1021;>
+<h1><b><u>STRUCTURES</u></b></h1>
+
+<h3>Q1
+Create structure of employee which there is emp.ID, name, designation of 50 employees from user, print details in tabular form ?
+Answer:
+struct employee
+{
+int empID;
+char Name[20],designation[30];
+};
+void main()
+{
+int i;
+struct employee emp[50];
+for(i=0;i<50;i++)
+{
+printf("Enter emp.ID ");
+scanf("%d",&emp[i].empID);
+printf("Enter Name ");
+scanf("%s",&emp[i].Name);
+printf("Enter designation ");
+scanf("%s",&emp[i].designation);
+}
+for(i=0;i<50;i++)
+printf("%d  %s   %s\n",emp[i].empID,emp[i].Name,emp[i].designation);
+}</h3><br><br><br>
+<h3>Q2
+Create structure of employee which there is emp.ID, name, designation of 50 employees from user and print only name of the employee ?
+Answer:
+struct employee
+{
+int empID;
+char Name[20],designation[30];
+};
+void main()
+{
+int i;
+struct employee emp[50];
+for(i=0;i<50;i++)
+{
+printf("Enter emp.ID ");
+scanf("%d",&emp[i].empID);
+printf("Enter Name ");
+scanf("%s",&emp[i].Name);
+printf("Enter designation ");
+scanf("%s",&emp[i].designation);
+}
+for(i=0;i<50;i++)
+printf("%s\n",emp[i].Name);
+}</h3><br><br><br>
+<h3>Q3
+Create structure of employee which there is emp.ID, name, designation of 50 employees from user and print name character with emp.ID in tabular form ?
+Answer:
+struct employee
+{
+int empID;
+char Name[20],designation[30];
+};
+void main()
+{
+int i;
+struct employee emp[50];
+for(i=0;i<50;i++)
+{
+printf("Enter emp.ID ");
+scanf("%d",&emp[i].empID);
+printf("Enter Name ");
+scanf("%s",&emp[i].Name);
+printf("Enter designation ");
+scanf("%s",&emp[i].designation);
+}
+for(i=0;i<50;i++)
+printf("%d       %s\n",emp.empID,emp[i].Name);
+}</h3><br><br><br>
+<h3>Q4
+Enter student details like roll name, fee, DOB and print all the detail by ascending order of roll number ?
+Answer:
+</h3><br><br>
+</body>
+</html>

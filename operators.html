@@ -1,0 +1,168 @@
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+<h3>-----</h3>
+</head>
+<body style=background-color:#0B1021;>
+<h1><b><u>OPERATORS</u></b></h1>
+
+<h3>Q1 Write a program to show that example of pre-increment?
+Answer:
+#include <stdio.h>
+void main()
+{
+int num1,num2=10;
+num1=++num2;
+printf("%d",num1);
+}</h3><br><br>
+<h3>Q2 Write a program to show that example of post-increment?
+Answer:
+#include <stdio.h>
+void main()
+{
+int num1,num2=10;
+num1=num2++;
+printf("%d",num1);
+}</h3><br><br>
+<h3>Q Write a program to show that example of pre-decrement?
+Answer:
+#include <stdio.h>
+void main()
+{
+int num1,num2=10;
+num1=--num2;
+printf("%d",num1);
+}</h3><br><br><h3>Q2 Write a program to show that example of post-decrement?
+Answer:
+#include <stdio.h>
+void main()
+{
+int num1,num2=10;
+num1=num2--;
+printf("%d",num1);
+}</h3><br><br>
+<h3>Q5
+Write a program to enter 2 numbers from user add the number and show the answer , again take 2 number from user subtract the number display the answer ,again take 2 number from user multiply the number display the answer and ,again take 2 number from the user divide the number display the answer ,again take 2 number find the remainder and display the answer ?
+Answer:
+#include &lt;stdio.h&gt;<br>
+#include &lt;conio.h&gt;<br>
+#include &lt;dos.h&gt;<br>
+void main()
+{
+float num1,num2;
+printf("Enter first number ");
+scanf("%f",&num1);
+printf("Enter second number ");
+scanf("%f",&num2);
+printf("Sum=%f",num1+num2);
+printf("Enter first number ");
+scanf("%f",&num1);
+printf("Enter second number ");
+scanf("%f",&num2);
+printf("Difference=%f",num1-num2);
+printf("Enter first number ");
+scanf("%f",&num1);
+printf("Enter second number ");
+scanf("%f",&num2);
+printf("Multiplication=%f",nm1*num2);
+printf("Enter first number ");
+scanf("%f",&num1);
+printf("Enter second number ");
+scanf("%f",&num2);
+printf("Division=%f",num1/num2);
+printf("Enter first number ");
+scanf("%f",&num1);
+printf("Enter second number ");
+scanf("%f",&num1);
+printf("Remainder=%d",num1%num2);
+}</h3><br><br>
+<h3>Q6
+Write a program to enter a number from the user ,the length of the number is depend on the user ,programmer should print the last digit of number ?
+Answer:
+#include &lt;stdio.h&gt;
+#include &lt;conio.h&gt;
+#include &lt;dos.h&gt;
+void main()
+{
+long int num;
+printf("Enter the number ");
+scanf("%d",&num);
+printf("\nThe last digit of your number is %d",num%10);
+}</h3><br><br>
+<h3>Q7
+Enter a decimal number from the user (float) and print the right hand side of the decimal point ?
+Answer:
+#include &lt;stdio.h&gt;
+#include &lt;conio.h&gt;
+#include &lt;dos.h&gt;
+void main()
+{
+float num;
+printf("Enter the number ");
+scanf("%f",&num);
+printf("\nThe decimal part of your number is %f",num%1);
+}</h3><br><br>
+<h3>Q8
+Enter a number from user and find out cube of the number?
+Answer:
+#include &lt;stdio.h&gt;
+#include &lt;conio.h&gt;
+#include &lt;dos.h&gt;
+void main()
+{
+int num;
+printf("Enter the number ");
+scanf("%d",&num);
+printf("\nThe cube of your number is %d",num*num*num);
+}</h3><br><br>
+<h3>Q9
+Enter float number from user and round of the number?
+Answer:
+</h3><br><br>
+<h3>Q10
+Enter a lower case character from user and print it into upper case?
+Answer:
+</h3><br><br>
+<h3>Q11
+Enter marks of students and calculate average of student's marks?
+Answer:
+#include &lt;stdio.h&gt;
+#include &lt;conio.h&gt;
+#include &lt;dos.h&gt;
+void main()
+{
+int arr[50],i,stu;
+float sum=0;<br>
+printf("Enter the number of students ");
+scanf("%d",&stu);
+printf("\n");
+for(i=0;i&lt;stu;i++)
+{
+scanf("%d",&arr[i]);
+sum=sum+arr[i];
+}
+printf("\nAverage marks %f",sum/stu);
+}</h3><br><br>
+<h3>Q12
+Calculate simple interest=(P*R*T)/100
+Answer:
+#include &lt;stdio.h&gt;
+#include &lt;conio.h&gt;
+#include &lt;dos.h&gt;
+void main()
+{
+float P,R,T;
+printf("Enter the principal ");
+scanf("%f",&P);
+printf("\nEnter the rate ");
+scanf("%f",&R);
+printf("\nEnter the time ");
+scanf("%f",&T);
+printf("\nSimple Interest=%d",(P*R*T)/100);
+}</h3><br><br>
+
+
+
+
+</body>
+</html>

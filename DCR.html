@@ -1,0 +1,330 @@
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+</head>
+<body style=background-color:#0B1021;>
+<h1><b><u>DECISION CONTROL<br>STRUCTURE</u></b></h1>
+
+
+<h3>Q1
+Write a program to enter the number from the user and check it is positive or negative or 0 (zero) ?
+Answer:
+#include &lt;stdio.h&gt;
+#include &lt;conio.h&gt;
+void main()
+{
+int num;
+printf("Enter number ");
+scanf("%d",&num);
+if(num>0)
+{
+printf("Positive");
+}
+else if(num<0)
+{
+printf("Negative");
+}
+else
+{
+printf("Zero");
+}
+}</h3>
+<br><br><h3>Q2
+Enter a number from user and check it is odd or even?
+Answer:
+#include &lt;stdio.h&gt;
+#include &lt;conio.h&gt;
+void main()
+{
+int num;
+printf("Enter number ");
+scanf("%d",&num);
+if(num%2)
+{
+printf("Odd number");
+}
+else 
+{
+printf("Even number");
+}
+}</h3>
+<br><br><h3>Q4
+Enter a number from the user if the number is between 0 to 40 then we will print fail if the number is between 40 to 60 then we will print C grade ,if the number is between 60 to 80 than we will print B grade ,if the number is between 80 to 100 then we will print A grade and rest all number are invalid ?
+Answer:
+#include &lt;stdio.h&gt;
+#include &lt;conio.h&gt;
+void main()
+{
+int x;
+printf("Enter marks ");
+scanf("%d",&x);
+if(x>=0&&x<=40)
+{
+printf("Fail");
+}
+else if(x>=40&&x<=60)
+{
+printf("Grade=C");
+}
+else if(x>=60&&x<=80)
+{
+printf("Grade=B");
+}
+else if(x>=80&&x<=100)
+{
+printf("Grade=A");
+}
+else
+{
+printf("Invalid marks");
+}
+}</h3>
+<br><br><h3>Q6
+Enter a number from the user if it is a negative then convert into positive and if it is positive then convert into negative often that print the number ?
+Answer:
+#include &lt;stdio.h&gt;
+#include &lt;conio.h&gt;
+void main()
+{
+int x;
+printf("Enter any number ");
+scanf("%d",&x);
+if(x>0)
+{
+printf("%d",x-2*x);
+}
+else
+{
+printf("%d",x-2*x);
+}
+}</h3>
+<br><br><h3>Q7
+Enetr a character from the user and check that it is an alphabet?
+Answer:
+#include &lt;stdio.h&gt;
+#include &lt;conio.h&gt;
+void main()
+{
+char y;
+int x;
+printf("Enter any character ");
+scanf("%c",&y);
+x=y;
+if(x>=97&&x<=122||x>=65&&x<=90)
+{
+printf("It is an alphabet");
+}
+else
+{
+printf("It is not an alphabet");
+}
+}</h3>
+<br><br><h3>Q8Enter a number from the user if the number is negative than square the number and if it is positive then increment the number 20 timer?
+Answer:
+#include &lt;stdio.h&gt;
+#include &lt;conio.h&gt;
+void main()
+{
+int num;
+printf("Enter number ");
+scanf("%d",&num);
+if(num<0)
+{
+printf("%d",num*num);
+}
+else if(num>0)
+{
+num=num+20;
+printf("%d",num);
+}
+else
+{
+printf("Zero");
+}
+}</h3>
+<br><br><h3>Q9
+Enter the number from user if te number is negative or positive and find out of that number?
+Answer:
+#include &lt;stdio.h&gt;
+#include &lt;conio.h&gt;
+void main()
+{
+int num;
+printf("Enter number ");
+scanf("%d",&num);
+if(num>0)
+{
+printf("Positive");
+}
+else if(num<0)
+{
+printf("Negative");
+}
+else
+{
+printf("Zero");
+}
+}</h3>
+<br><br><h3>Q10
+Enter two numbers from user and check which is the greater and print the greater number?
+Answer:
+#include &lt;stdio.h&gt;
+#include &lt;conio.h&gt;
+void main()
+{
+int num1,num2;
+printf("Enter first number ");
+scanf("%d",&num1);
+printf("Enter second number ");
+scanf("%d",&num2);
+if(num1>num2)
+{
+printf("%d is greater",num1);
+}
+else
+{
+printf("%d is greatesr",num2);
+}
+}</h3>
+<br><br><h3>Q11
+Enter a number from user and check it is divisible by 4 or not?
+Answer:
+#include &lt;stdio.h&gt;
+#include &lt;conio.h&gt;
+void main()
+{
+int num;
+printf("Enter number ");
+scanf("%d",&num);
+if(num%4==0)
+{
+printf("it is divisible by 4");
+}
+else
+{
+printf("it is not divisible by 4");
+}
+}</h3><br><br>
+<br><br><h3>Q13
+Enter three nmbers from user and which is greater?
+Answer:
+#include &lt;stdio.h&gt;
+#include &lt;conio.h&gt;
+void main()
+{
+int num1,num2,num3;
+printf("Enter first number ");
+scanf("%d",&num1);
+printf("Enter second number ");
+scanf("%d",&num2);
+printf("Enter third number ");
+scanf("%d",&num3);
+if(num1>num2)
+{
+if(num1>num3)
+printf("%d is greatest",num1);
+else
+printf("%d is greatest",num3);
+}
+else
+{
+if(num2>num3)
+printf("%d is greatest",num2);
+else
+printf("%d is greatest",num3);
+}
+}</h3>
+<br><br><h3>Q17
+Enter three nmbers from user and which is greater?
+Answer:
+#include &lt;stdio.h&gt;
+#include &lt;conio.h&gt;
+void main()
+{
+int num1,num2,num3;
+printf("Enter first number ");
+scanf("%d",&num1);
+printf("Enter second number ");
+scanf("%d",&num2);
+printf("Enter third number ");
+scanf("%d",&num3);
+if(num1>num2)
+{
+if(num1>num3)
+printf("%d is greatest",num1);
+else
+printf("%d is greatest",num3);
+}
+else
+{
+if(num2>num3)
+printf("%d is greatest",num2);
+else
+printf("%d is greatest",num3);
+}
+}</h3>
+<br><br><h3>Q19
+Enter a charcter from user and it is in upper case,lower case,special charcter or numbers?
+Answer:
+#include &lt;stdio.h&gt;
+#include &lt;conio.h&gt;
+void main()
+{
+char y;
+int x;
+printf("Enter any character ");
+scanf("%c",&y);
+x=y;
+if(x>=97&&x<=122)
+{
+printf("It is a small alphabet");
+}
+else if(x>=65&&x<=90)
+{
+printf("It is a big alphabet");
+}
+else if(x>=48&&x<=57)
+{
+printf("It is a number");
+}
+else
+{
+printf("It is a special character ");
+}
+}</h3>
+
+<br><br><h3>Q20 
+Enter the year from the user and check its leap year or not?
+Answer:
+#include &lt;stdio.h&gt;
+#include &lt;conio.h&gt;
+void main()
+{
+int year;
+printf("Enter year ");
+scanf("%d",&year);
+if(year%4==0)
+{
+printf("it is a leap year");
+}
+else
+{
+printf("it is not a leap year");
+}
+}</h3>
+<br><br><h3>Q23 Write a program to calculate area and perimeter of rectangle?
+   Answer:
+#include &lt;stdio.h&gt;
+#include &lt;conio.h&gt;
+void main()
+{
+int len,wid,peri;
+printf("Enter length ");
+scanf("%d",&len);
+printf("Enter width ");
+scanf("%d",&wid);
+printf("Perimeter=%d\n",2*(len+wid));
+printf("Area=%d",len*wid);
+}</h3>
+</body>
+</html>
